@@ -7,27 +7,27 @@
 
 > **A sophisticated web crawling and data extraction framework showcasing advanced Python async programming, parallel processing, and intelligent content parsing capabilities.**
 
-## 🎯 Project Overview
+## Project Overview
 
 This project demonstrates enterprise-level web scraping techniques using **Crawl4AI**, featuring multiple crawling strategies optimized for different use cases. From single-page extraction to large-scale parallel sitemap processing, this suite showcases modern Python development practices and advanced data engineering concepts.
 
-## ✨ Key Features
+## Key Features
 
-### 🤖 **Multi-Strategy Crawling Architecture**
+### **Multi-Strategy Crawling Architecture**
 - **Single Page Extraction**: Targeted content retrieval with precision
 - **Sequential Documentation Crawling**: Session-reuse optimization for related pages  
 - **Parallel Sitemap Processing**: High-throughput batch crawling with memory management
 - **Recursive Site Traversal**: Intelligent depth-first and breadth-first exploration
 - **Content Chunking & Analysis**: Advanced markdown parsing and segmentation
 
-### 🔧 **Technical Highlights**
+### **Technical Highlights**
 - **Asynchronous Programming**: Full async/await implementation for maximum performance
 - **Memory-Adaptive Processing**: Dynamic resource management with intelligent throttling
 - **Session Management**: Browser session reuse for improved efficiency
 - **Error Handling & Resilience**: Comprehensive error recovery and retry mechanisms
 - **Structured Data Output**: Clean markdown generation with metadata preservation
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── 1_crawl_single_page.py      # Basic single-page extraction
@@ -40,7 +40,7 @@ This project demonstrates enterprise-level web scraping techniques using **Crawl
 └── README.md                   # This file
 ```
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### **Core Technologies**
 - **Python 3.9+**: Modern Python with type hints and async support
@@ -55,7 +55,7 @@ This project demonstrates enterprise-level web scraping techniques using **Crawl
 - **Rich**: Enhanced terminal output and progress tracking
 - **psutil**: System resource monitoring
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 ```bash
@@ -100,7 +100,7 @@ python 2_crawl_doc_sequential.py
 python 3_crawl_sitemap_parallel.py
 ```
 
-## 💡 Advanced Features Demonstrated
+## Advanced Features Demonstrated
 
 ### **Asynchronous Architecture**
 ```python
@@ -127,7 +127,7 @@ header_pattern = re.compile(r'^(# .+|## .+)$', re.MULTILINE)
 chunks = split_content_by_headers(markdown_content)
 ```
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 - **Concurrent Processing**: Up to 200+ parallel requests
 - **Memory Management**: Adaptive throttling at 70% memory usage
@@ -151,7 +151,7 @@ chunks = split_content_by_headers(markdown_content)
 - Competitor content strategy analysis
 - Link building and outreach research
 
-## 🔍 Code Quality & Best Practices
+## Code Quality & Best Practices
 
 ### **Design Patterns**
 - **Factory Pattern**: Configurable crawler instances
@@ -168,14 +168,14 @@ chunks = split_content_by_headers(markdown_content)
 - Memory-aware processing limits
 - Intelligent rate limiting and throttling
 
-## 📈 Scalability Features
+## Scalability Features
 
 - **Horizontal Scaling**: Multi-process architecture support
 - **Resource Management**: Dynamic memory and CPU monitoring  
 - **Fault Tolerance**: Automatic retry and recovery mechanisms
 - **Configuration Management**: Environment-based settings
 
-## 🤝 Contributing
+## Contributing
 
 This project demonstrates professional-level Python development practices:
 
@@ -185,11 +185,11 @@ This project demonstrates professional-level Python development practices:
 - **Documentation**: Clear, maintainable code structure
 - **Testing Ready**: Modular design for easy unit testing
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 This project showcases expertise in:
 
